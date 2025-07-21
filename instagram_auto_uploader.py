@@ -1,6 +1,6 @@
 
 import os, time, shutil, asyncio
-from telegram import Update, Bot
+from telegram import Application, Bot
 from telegram.ext import Application, MessageHandler, filters, ContextTypes
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from instagrapi import Client
